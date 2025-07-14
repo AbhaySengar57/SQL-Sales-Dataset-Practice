@@ -65,3 +65,46 @@ MySQL Workbench
 SQL (Standard syntax for SELECT, WHERE, GROUP BY, ORDER BY)
 
 Sample dataset manually inserted
+
+# 📊 SQL Project – Joins & Subqueries (Day 4)
+
+This project covers **SQL joins and subqueries** using a fictional customer-orders dataset. It's part of my 30-day roadmap to becoming a Data Analyst.
+
+---
+
+## 📁 Tables Used
+
+### 🧑 Customers
+| Column        | Type         |
+|---------------|--------------|
+| customer_id   | INT (PK)     |
+| customer_name | VARCHAR      |
+| region        | VARCHAR      |
+
+### 📦 Orders
+| Column        | Type         |
+|---------------|--------------|
+| order_id      | INT (PK)     |
+| customer_id   | INT (FK)     |
+| sales         | DECIMAL      |
+| order_date    | DATE         |
+
+---
+
+## 🔧 Topics Practiced
+
+- ✅ `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
+- ✅ Subqueries: `SELECT`, `WHERE`, `FROM`
+- ✅ `GROUP BY`, `HAVING`, `LIMIT`
+- ✅ Filtering unmatched data using joins
+- ✅ Real-world query practice
+
+---
+
+## 🧪 Practice Challenges Solved
+
+1. Orders from East region customers  
+2. Customers with no orders  
+3. Total sales per customer  
+4. Most recent order and customer  
+5. Customers with avg order value > ₹500
